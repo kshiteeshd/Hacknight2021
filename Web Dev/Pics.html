@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PICS & PROS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/Web Dev/CSS/style-footer.css">
+    <link rel="stylesheet" href="/Web Dev/pics.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <h1 class="Mainheading">PICS & PROS</h1>
+    <header>
+    <nav>
+        <!-- <input type="checkbox" id="check"> -->
+        <!-- <label for="check" class="ckeckbtn"> -->
+            <!-- <i class='fas fa-bars'></i> -->
+        <!-- </label> -->
+        <ul>
+        <!-- <label for="logo"></label> -->
+        <li><a href="index.html" class="active">HOME</a></li>
+        <li><a href="Articles.html" class="active">ARTICLES</a></li>
+        <li><a href="Wp.html" class="active">WALLPAPERS</a></li>
+        <li><a href="Pics.html" class="active">PICS</a></li>
+        <li><a href="Comments.html" class="active">COMMENTS</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section class="banner"></section>
+    <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var header =document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0)
+        
+        
+    })
+    
+    </script>
+    
+    
+
+    <div class="picscontainer">
+    <h2>PICS</h2>
+    <div class="picswrap">
+    <div><img src="/Web Dev/PICS/IMG20211015114959.jpg" alt=""></div>    
+    <div><img src="/Web Dev/PICS/IMG20211014072344.jpg" alt=""></div>
+    <div><img src="/Web Dev/PICS/IMG20210922171400.jpg" alt=""></div>
+    <div><img src="/Web Dev/PICS/20180625_184811.jpg" alt=""></div>
+    <div><img src="/Web Dev/PICS/IMG20211011175307.jpg" alt=""></div>
+    </div>
+    </div>
+    
+    
+    
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="white">
+                        <li>PH: 1234567890</li>
+                        <li>PH: 1234567890</li>
+                        <li>PH: 1234567890</li>
+                        <li>PH: 1234567890</li>
+                    </ul>                    
+
+                </div>
+                <div class="footer-col">
+                    <h3>Pages</h3>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ARTICLES</a></li>
+                        <li><a href="#">WALLPAPERS</a></li>
+                        <li><a href="#">PICS</a></li>
+                        
+                    </ul>                    
+
+                </div>
+
+                <div class="footer-col">
+                    <h3>Follow us on</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+
+                    </div>
+                                       
+
+                <div>                                                
+
+            </div>
+            
+        </div>
+
+    </footer>
+</body>
+<script src="/FileSaver.js-2.0.4/dist/FileSaver.min.js"></script>
+    <script src="js/script.js"></script>
+
+</html>

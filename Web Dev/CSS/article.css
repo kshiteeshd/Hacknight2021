@@ -1,0 +1,244 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+h1.Mainheading{
+    color: rgb(240, 218, 147);
+    text-align: left;
+    border: rgb(255, 227, 227);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: black;
+
+    margin: 0px;
+    padding: 20px;
+    /* position: fixed; */
+    
+
+}
+.header{
+    position: fixed;
+    width: 100%;
+}
+header{
+    z-index: 100000;
+}
+
+nav{
+    background: rgb(110, 190, 180);
+    height: 90px;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* position: fixed; */
+
+}
+
+nav ul{
+    float:right;
+    margin-right: 20px;
+
+    
+}nav ul li{
+    display: inline-block;
+    line-height: 90px;
+
+}
+nav ul li a{
+    color: rgb(230, 255, 202);
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 6px;
+    padding: 7px 13px;
+    border-radius: 3px;
+
+}
+a:hover{
+    color: rgb(216, 91, 69);
+
+}
+
+
+@media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block
+    }
+    
+}
+
+
+div.topline{
+    background: black;
+}
+div.articlelist h2{
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(253, 240, 168);
+    padding: 8px;
+
+}
+div.articlelist ul{
+    list-style-type: none;
+}
+
+
+div.flexparent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
+    height: 900px;
+    /* background-image: url('/Web Dev/PICS/10001.png'); */
+    background-color: black;
+    color: rgb(252, 246, 164);
+    padding-top: 25vh;
+    
+}
+.wp{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+div.articlelist{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: 3px;
+    padding: 8px;
+    border: 2px solid rgb(74, 188, 192);
+    width: 1260px;
+    border-radius: 4px;
+    height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+div.articlelist h2{
+    color: rgb(252, 246, 164);;
+
+}
+.articlescontainer{
+    border: 6px solid rgba(74, 188, 192, 0.568);;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 12px;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin: 3px;
+
+
+}
+div.main h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+div.main h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    padding: 8px;
+    
+    
+    
+
+
+
+}
+div.article1{
+    padding: 12px;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 300px;
+    border: 2px solid rgb(111, 240, 240);
+}
+
+
+.picscontainer{
+    border: 2px solid rgb(74, 188, 192);;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 12px;
+    margin: 3px;
+}
+
+/* Pics Container */
+
+div.picscontainer h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 12px;
+    color: rgb(252, 246, 164);
+
+}
+.picscontainer{
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 2500px;
+}
+.picscontainer img{
+    width: 300px;
+    padding: 8px;
+}
+
+/* wallpaper container */
+.wpcontainer{
+   padding: 16px;
+    width: 100%;
+    background: rosybrown;
+   
+    
+    
+   
+    height:auto;
+
+
+
+}
+.wpheading{
+    padding: 20px;
+}
+/* .wp{
+    display: flex;
+    flex-direction: row;
+} */
+.wpcontainer img{
+    width: 330px;
+    padding-left: 12px;
+    padding-right: 12px;
+  
+}
+.wpcontainer h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 12px;
+    text-transform: uppercase;
+    color: rgb(253, 245, 171);
+    font-size: 50px;
+
+}
+
+/* BUTTON Styling */
+button {
+    display: block;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 4px solid rgb(140, 141, 84);
+    background-color: rgb(247, 242, 174);
+    color: rgb(85, 83, 74);
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
